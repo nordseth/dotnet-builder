@@ -5,7 +5,7 @@ WORKDIR /app
 
 ENV HELM_VERSION="v3.1.1" \
     KUBE_VERSION="v1.17.3" \
-    NIBBLER_VERSION="1.1.0-alpha.4" \
+    NIBBLER_VERSION="1.1.0-beta.1" \
     PATH="${PATH}:/root/.dotnet/tools"
 
 RUN wget -q https://storage.googleapis.com/kubernetes-release/release/${KUBE_VERSION}/bin/linux/amd64/kubectl -O /usr/local/bin/kubectl \
