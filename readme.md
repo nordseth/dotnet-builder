@@ -1,3 +1,5 @@
+Moved to https://github.com/nordseth/docker-images/tree/master/dotnet-builder
+
 # dotnet-builder
 
 Published on docker hub [nordseth/dotnet-builder](https://hub.docker.com/r/nordseth/dotnet-builder)
